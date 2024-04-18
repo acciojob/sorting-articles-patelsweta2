@@ -6,7 +6,7 @@ const bands = ['The Plot in You',
 			   'We Came as Romans', 'Counterparts', 'Oh, Sleeper', 
 			   'A Skylit Drive', 'Anywhere But Here', 'An Old Dog'];
 
-const ul = document.getElementById("band");
+const ul = document.getElementById("bands");
 
 const sortedBands = bands.map(band => {
 	const cleanedName = band.replace(/^(a |an |the )/i,'');
